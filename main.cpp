@@ -4,18 +4,25 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    int i = 1;
+    float number;
+    int sum = 0;
     cout << "Enter 10 numbers:" << endl;
-    float a,b,c,d,e,f,g,h,i,j,sum;
-    cin >>a>>b>>c>>d>>e>>f>>g>>h>>i>>j;
-    sum=a+b+c+d+e+f+g+h+i+j;
+    
+    while (i<=10){
+        cin>> number;
+        sum = sum + number;
+        i++;
+
+    }
+
     if(sum==0)
     {
-        cout<< "zero error:" <<endl;
+        cout<< "Division By Zero Error" <<endl;
     }
     else
     {
-            double average;
+    double average;
     average =(sum)/10;
     cout << "The sum is:" <<sum<<endl;
     cout << "average is:" <<average<<endl;
