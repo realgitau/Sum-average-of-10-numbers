@@ -6,6 +6,7 @@ int main()
 {
     cout << "Hello world!" << endl;
     cout << "Enter 10 numbers:" << endl;
+    //Takes float numbers
     float a,b,c,d,e,f,g,h,i,j,sum;
     cin >>a>>b>>c>>d>>e>>f>>g>>h>>i>>j;
     sum=a+b+c+d+e+f+g+h+i+j;
